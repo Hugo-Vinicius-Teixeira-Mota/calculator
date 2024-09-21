@@ -1,0 +1,99 @@
+@font-face{
+    font-family: Calculator;
+    src: url(Calculator.ttf);
+}
+
+*{
+    transition: 0.5s;
+}
+
+body{
+    margin: 0;
+    background: rgb(224, 224, 224);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    cursor: default;
+}
+
+main{
+    margin: auto;
+}
+
+section{
+    margin: auto;
+    padding: 5px;
+    background: rgb(255, 255, 255);
+    min-width: 175px;
+    max-width: max-content;
+    border: 5px solid rgb(192, 192, 192);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+fieldset{
+    padding: 0 7px 0 7px;
+    background: rgb(192, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Calculator;
+    text-align: right;
+    text-shadow: none;
+    font-size: 20pt;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+div{
+    height: 45px;
+    display: flex;
+}
+
+button{
+    margin: auto;
+    background: rgb(192, 192, 192);
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+select{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    background: rgb(192, 192, 192);
+    text-align: center;
+    border: none;
+    border-radius: 0 0 0 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    cursor: help;
+}
+
+option{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+footer{
+    font-style: italic;
+}
+
+h1:hover{
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+button:hover{
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+select:hover{
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+p:hover{
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
+}

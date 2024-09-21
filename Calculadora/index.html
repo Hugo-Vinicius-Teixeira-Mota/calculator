@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Calculadora</h1>
+        </header>
+        <section>
+            <fieldset>0</fieldset>
+            <div>
+                <button onclick="Seven()">7</button>
+                <button onclick="Eight()">8</button>
+                <button onclick="Nine()">9</button>
+                <button onclick="AC()">AC</button>
+            </div>
+            <div>
+                <button onclick="Four()">4</button>
+                <button onclick="Five()">5</button>
+                <button onclick="Six()">6</button>
+                <button onclick="Plus()">+</button>
+            </div>
+            <div>
+                <button onclick="One()">1</button>
+                <button onclick="Two()">2</button>
+                <button onclick="Three()">3</button>
+                <button onclick="Minus()">-</button>
+            </div>
+            <div>
+                <button onclick="Point()">.</button>
+                <button onclick="Zero()">0</button>
+                <button onclick="Divided()">÷</button>
+                <button onclick="Times()">x</button>
+            </div>
+            <div>
+                <button onclick="Percent()">%</button>
+                <button onclick="Potency()">^</button>
+                <button onclick="Root()">√</button>
+                <button onclick="Equal()">=</button>
+            </div>
+        </section>
+        <aside>
+            <select oninput="Switch()">
+                <option value="white">Br</option>
+                <option value="red">Vm</option>
+                <option value="green">Vd</option>
+                <option value="cyan">Az</option>
+                <option value="blue">An</option>
+                <option value="magenta">Mg</option>
+                <option value="yellow">Am</option>
+                <option value="orange">Lr</option>
+                <option value="violet">Vl</option>
+                <option value="black">Pr</option>
+            </select>
+        </aside>
+        <footer>
+            <p>&copy; Copyright Hugo Vinícius Teixeira Mota 2024</p>
+        </footer>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
